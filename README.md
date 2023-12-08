@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-This repository contains implementations of various Data Structures and Algorithms in [language].
+This repository contains implementations of various Data Structures and Algorithms in C++.
 
 ## Table of Contents
 1. [Introduction](#introduction)
