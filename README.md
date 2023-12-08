@@ -28,11 +28,84 @@ List and describe the implemented algorithms. Include links to the source code f
 - ...
 
 ## How to Use
-Instructions on how to use the code in this repository. Include any prerequisites, installation steps, and examples.
+### Prerequisites
 
+Before you begin, make sure you have the necessary tools installed:
+
+- **CodeBlocks** (https://www.codeblocks.org/downloads/binaries/)
+
+### Clone the Repository
+
+Clone this repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/itsrifathridoy/DSA-Learning.git
+```
+### Switch The Branches
+
+If you want clone only DSA1 or DSA2 instead of master(Combine) branch:
+
+```bash
+git clone -b DSA1 https://github.com/itsrifathridoy/DSA-Learning.git
+```
+```bash
+git clone -b DSA2 https://github.com/itsrifathridoy/DSA-Learning.git
+```
 ## Contributing
-Explain how others can contribute to this project. Whether it's through bug reporting, suggesting improvements, or adding new implementations, provide guidelines for contributions.
+
+Your contributions are welcome and encouraged! Here's how you can contribute to this project:
+
+1. **Fork** the repository on GitHub.
+2. **Clone** the forked repository to your local machine:
+
+    ```bash
+    git clone https://github.com/itsrifathridoy/DSA-Learning.git
+    ```
+
+3. **Create a new branch** for your modifications or additions:
+
+    ```bash
+    git checkout -b contributions
+    ```
+
+4. **Make your changes** and ensure the code is well-documented.
+5. **Test your changes** thoroughly.
+6. **Commit** your changes:
+
+    ```bash
+    git commit -am 'Added/Modified Algorithm: Add your added algorithm or modification description'
+    ```
+
+7. **Push** to your branch:
+
+    ```bash
+    git push origin contributions
+    ```
+
+8. Create a new **Pull Request** (PR) from your forked repository to the original repository.
+9. Clearly describe your changes in the PR and why they're needed.
+10. After review and approval, your PR will be **merged**.
+11. **Sync** your fork with the original repository:
+
+    ```bash
+    git remote add upstream https://github.com/itsrifathridoy/DSA-Learning.git
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
+    ```
+
+### Guidelines
+
+- Follow existing code styles, naming conventions, and guidelines.
+- Write clear commit messages and PR descriptions.
+- Ensure compatibility with different environments or versions if applicable.
+- Test your changes thoroughly and include relevant tests or documentation.
+- Be respectful and considerate of others' contributions and opinions.
+
+Thank you for considering contributing to this project! Your input is valuable and helps improve the overall quality of the codebase.
 
 ## License
-Specify the license under which your code is distributed.
+
+This project is licensed under the [MIT License](LICENSE.md), which means you are free to use, modify, and distribute the code as long as you include the original copyright and license notice in any copy of the software.
+
 
