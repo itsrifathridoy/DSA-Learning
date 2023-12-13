@@ -1,6 +1,6 @@
 # Disjoint Sets (Union-Find) Data Structure
 
-This repository contains implementations and explanations of the Disjoint Set data structure (also known as Union-Find) in [programming language].
+This repository contains implementations and explanations of the Disjoint Set data structure (also known as Union-Find) in C++.
 
 ## Table of Contents
 1. [Introduction](#introduction)
